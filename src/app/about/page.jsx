@@ -1,6 +1,5 @@
 import ContactSection from "@/components/ContactSection";
 import Container from "@/components/Container";
-import Cultures from "@/components/Cultures";
 import PageIntro from "@/components/PageIntro";
 import { StatList, StatListItem } from "@/components/StatList";
 import React from "react";
@@ -8,34 +7,35 @@ import React from "react";
 const AboutPage = () => {
   return (
     <>
-      <PageIntro eyebrow="About us" title="Our strength is collaboration">
+      <PageIntro eyebrow="Sobre nosotros" title="Nuestra fuerza es la colaboración">
         <p>
-          We believe that our strength lies in our collaborative approach, which
-          puts our clients at the center of everything we do.
+        ¿Por qué elegir nuestros servicios financieros?
         </p>
         <div className="mt-10 max-w-2xl space-y-6 text-base">
-          <p>
-            Studio was started by three friends who noticed that developer
-            studios were charging clients double what an in-house team would
-            cost. Since the beginning, we have been committed to doing things
-            differently by charging triple instead.
+        <p>
+          Profesionalismo y Conocimiento: Aunque somos estudiantes, estamos respaldados 
+          por una sólida formación académica y un profundo entendimiento de los principios 
+          contables y financieros.
           </p>
           <p>
-            At Studio, we’re more than just colleagues — we’re a family. This
-            means we pay very little and expect people to work late. We want our
-            employees to bring their whole selves to work. In return, we just
-            ask that they keep themselves there until at least 6:30pm.
+          Precios Competitivos: Entendemos que las finanzas pueden ser un campo costoso. 
+          Es por eso que ofrecemos tarifas competitivas para que obtengas la ayuda que 
+          necesitas sin quebrar tu presupuesto.
+          </p>
+          <p>
+          Atención Personalizada: Cada cliente es único, y así es como tratamos a cada uno. 
+          Nos enfocamos en tus necesidades específicas y te proporcionamos soluciones personalizadas.
+          </p>
+          <p>
+          Mantente Informado: A través de nuestro blog, te mantendremos al tanto de las últimas noticias 
+          y tendencias financieras, lo que te permitirá tomar decisiones informadas.
+          </p>
+          <p>
+          Ética y Transparencia: Valoramos la ética y la transparencia en todos nuestros servicios. 
+          Puedes confiar en nosotros para manejar tus asuntos financieros con la máxima integridad.
           </p>
         </div>
       </PageIntro>
-      <Container className="mt-16">
-        <StatList>
-          <StatListItem value="35" label="Underpaid employees" />
-          <StatListItem value="52" label="Placated clients" />
-          <StatListItem value="$25M" label="Invoices billed" />
-        </StatList>
-      </Container>
-      <Cultures />
       <ContactSection />
     </>
   );

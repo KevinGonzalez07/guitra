@@ -14,42 +14,76 @@ const Values = () => {
         />
       </div>
       <SectionIntro
-        eyebrow="Our values"
-        title="Balancing reliability and innovation"
+        eyebrow="Servicios personalizados"
+        title="Servicios Especializados a tu Medida: Descubre lo que Tenemos para Ofrecerte"
       >
-        <p>
-          We strive to stay at the forefront of emerging trends and
-          technologies, while completely ignoring them and forking that old
-          Rails project we feel comfortable using. We stand by our core values
-          to justify that decision.
+        <p style={{ textAlign: 'justify' }}>
+        Además de nuestros servicios rápidos, nos especializamos en ofrecer soluciones 
+        personalizadas. Simplemente accede a nuestro menú de contacto, y estaremos encantados de 
+        proporcionar servicios adaptados a tus necesidades. Algunos de los servicios especializados 
+        que ofrecemos incluyen:
         </p>
       </SectionIntro>
-      <Container className="mt-24">
+      <Container className="mt-14 mb-24">
         <GridList>
-          <GridListItem title="Meticulous">
-            The first part of any partnership is getting our designer to put
-            your logo in our template. The second step is getting them to do the
-            colors.
+          <GridListItem title="Contabilidad General">
+          Nos ocupamos del cuidado meticuloso de tus libros 
+          contables, asegurándonos de mantener un registro preciso y detallado de todas las transacciones 
+          financieras. 
           </GridListItem>
-          <GridListItem title="Efficient">
-            We pride ourselves on never missing a deadline which is easy because
-            most of the work was done years ago.
+          <GridListItem title="Declaraciones de Impuestos">
+          Nos encargamos de la preparación y presentación de tus declaraciones fiscales, 
+          asegurándonos de cumplir con todas las obligaciones tributarias de manera precisa.
           </GridListItem>
-          <GridListItem title="Adaptable">
-            Every business has unique needs and our greatest challenge is
-            shoe-horning those needs into something we already built.
+          <GridListItem title="Asesoría Financiera">
+          Ofrecemos servicios de planificación financiera tanto a nivel personal 
+          como empresarial, asegurando un enfoque estratégico para tus metas financieras.
           </GridListItem>
-          <GridListItem title="Honest">
-            We are transparent about all of our processes, banking on the simple
-            fact our clients never actually read anything.
+          <GridListItem title="Auditoría Interna">
+          Implementamos medidas para fortalecer tus controles internos, 
+          garantizando la seguridad y eficiencia de tus procesos.
           </GridListItem>
-          <GridListItem title="Loyal">
-            We foster long-term relationships with our clients that go beyond
-            just delivering a product, allowing us to invoice them for decades.
+          <GridListItem title="Nómina y Recursos Humanos">
+          Nos especializamos en el cálculo preciso de nóminas, garantizando la exactitud en 
+          la compensación de tus empleados. 
           </GridListItem>
-          <GridListItem title="Innovative">
-            The technological landscape is always evolving and so are we. We are
-            constantly on the lookout for new open source projects to clone.
+          <GridListItem title="Consultoría Contable">
+          Trabajamos en el desarrollo de políticas contables adaptadas a las necesidades específicas de 
+          tu empresa, proporcionando una estructura sólida para la toma de decisiones financieras. 
+          </GridListItem>
+        </GridList>
+      </Container>
+      <SectionIntro
+        eyebrow=""
+        title="Servicios extras"
+      >
+      </SectionIntro>
+      <Container className="mt-10">
+      <GridList>
+      <GridListItem title="Consulta tu CURP">
+            <a href="https://www.gob.mx/curp/" target="_blank" rel="noopener noreferrer">
+              Aqui.
+            </a>
+          </GridListItem>
+          <GridListItem title="Consulta tu RFC" >
+          <a href="https://www.sat.gob.mx/aplicacion/31274/consulta-tu-clave-de-rfc-mediante-curp" target="_blank" rel="noopener noreferrer">
+              Aqui.
+            </a>
+          </GridListItem>
+          <GridListItem title="Consulta tu acta de nacimiento" >
+          <a href="https://www.gob.mx/ActaNacimiento/" target="_blank" rel="noopener noreferrer">
+              Aqui.
+            </a>
+          </GridListItem>
+          <GridListItem title="Agenda una cita para INE" >
+          <a href="https://app-inter.ife.org.mx/siac2011/citas_initCapturaCitas.siac" target="_blank" rel="noopener noreferrer">
+              Aqui.
+            </a>
+          </GridListItem>
+          <GridListItem title="Agenda una cita en el SAT" >
+          <a href="https://citas.sat.gob.mx/" target="_blank" rel="noopener noreferrer">
+              Aqui.
+            </a>
           </GridListItem>
         </GridList>
       </Container>

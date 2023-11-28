@@ -10,13 +10,13 @@ const Services = () => {
   return (
     <>
       <SectionIntro
-        eyebrow="Services"
-        title="We help you identify, explore and respond to new opportunities."
+        eyebrow="Servicios"
+        title="Nosotros podremos ayudar en varios servicios financieros"
         className="mt-24 sm:mt-32 lg:mt-40"
       >
         <p>
-          As long as those opportunities involve giving us money to re-purpose
-          old projects — we can come up with an endless number of those.
+          Conoce todos nuestros servicios financieros, estaremos dispuestos a ayudarte
+          en lo que mejor hacemos.
         </p>
       </SectionIntro>
       <Container className="mt-16">
@@ -32,24 +32,21 @@ const Services = () => {
           </div>
           {/* List item */}
           <List className="mt-16 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4">
-            <ListItem title="Web development">
-              We specialise in crafting beautiful, high quality marketing pages.
-              The rest of the website will be a shell that uses lorem ipsum
-              everywhere.
+            <ListItem title="Calculación de impuestos">
+              Nuestros especialistas implementaron una sección de servicios rapidos
+              donde podras calcular impuestos que necesites. 
             </ListItem>
-            <ListItem title="Application development">
-              We have a team of skilled developers who are experts in the latest
-              app frameworks, like Angular 1 and Google Web Toolkit.
+            <ListItem title="Calculación de finiquitos">
+              Dentro de nuestros servicios rapidos podras calcular finiquitos en México,
+              herramienta esencial para empresas o trabajadores.
             </ListItem>
-            <ListItem title="E-commerce">
-              We are at the forefront of modern e-commerce development. Which
-              mainly means adding your logo to the Shopify store template we’ve
-              used for the past six years.
+            <ListItem title="Calculación de aguinaldos">
+              Nuestro sistema busca ayudar a toda la sociedad, por eso tambien ofrecemos
+              ayudarte a saber tu aguinaldo que por ley te corresponde.
             </ListItem>
-            <ListItem title="Custom content management">
-              At Studio we understand the importance of having a robust and
-              customised CMS. That’s why we run all of our client projects out
-              of a single, enormous Joomla instance.
+            <ListItem title="Servicios especializados">
+              Si necesitas servicios mas especializados para tu negocio o personal. 
+              Podras contactar a nuestros especialistas para tener un servicio personalizado.
             </ListItem>
           </List>
         </div>

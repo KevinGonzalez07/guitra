@@ -9,11 +9,11 @@ import React from "react";
 const ProcessPage = () => {
   return (
     <>
-      <PageIntro eyebrow="Our process" title="How we work">
-        <p>
-          We believe in efficiency and maximizing our resources to provide the
-          best value to our clients. The primary way we do that is by re-using
-          the same five projects we’ve been developing for the past decade.
+      <PageIntro eyebrow="Servicios" title="¿Comó te ayudamos?">
+        <p style={{ textAlign: 'justify' }}>
+        Brindamos estos servicios de forma rápida para que puedas obtener tus cálculos al instante. 
+        Creemos que tu confianza es primordial, por lo que nuestros procedimientos se actualizan 
+        constantemente de acuerdo con el portal del SAT, garantizando así un servicio siempre a la vanguardia.
         </p>
       </PageIntro>
       <div className="mt-24 space-y-24 [counter-reset:section] sm:mt-32 sm:space-y-32 lg:mt-40 lg:space-y-40">

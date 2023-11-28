@@ -9,37 +9,37 @@ const ContactForm = () => {
     <FadeIn>
       <form>
         <h2 className="font-display text-base font-semibold text-neutral-950">
-          Work inquiries
+          Consulta de trabajos
         </h2>
         <div className="isolate mt-6 -space-y-px rounded-2xl bg-white/50">
-          <TextInput label="Name" name="name" autoComplete="name" />
+          <TextInput label="Nombre" name="name" autoComplete="name" />
           <TextInput
-            label="Email"
+            label="Correo"
             type="email"
             name="email"
             autoComplete="email"
           />
           <TextInput
-            label="Company"
+            label="Compañia"
             name="company"
             autoComplete="organization"
           />
-          <TextInput label="Phone" type="tel" name="phone" autoComplete="tel" />
-          <TextInput label="Message" name="message" />
+          <TextInput label="Telefono" type="tel" name="phone" autoComplete="tel" />
+          <TextInput label="Descripción" name="message" />
           <div className="border border-neutral-300 px-6 py-8 first:rounded-t-2xl last:rounded-b-2xl">
             <fieldset>
-              <legend className="text-base/6 text-neutral-500">Budget</legend>
+              <legend className="text-base/6 text-neutral-500">Presupuesto</legend>
             </fieldset>
             <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-8">
-              <RadioInput label="$25K – $50K" name="budget" value="25" />
-              <RadioInput label="$50K – $100K" name="budget" value="50" />
-              <RadioInput label="$100K – $150K" name="budget" value="100" />
-              <RadioInput label="More than $150K" name="budget" value="150" />
+              <RadioInput label="$500 – $1000" name="budget" value="25" />
+              <RadioInput label="$1000 – $1500" name="budget" value="50" />
+              <RadioInput label="$1500 – $2000" name="budget" value="100" />
+              <RadioInput label="Más de $2000" name="budget" value="150" />
             </div>
           </div>
         </div>
         <Button type="submit" className="mt-10">
-          Let’s work together
+          Enviar
         </Button>
       </form>
     </FadeIn>

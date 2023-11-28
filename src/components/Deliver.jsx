@@ -4,54 +4,48 @@ import imageMeeting from "@/images/meeting.jpg";
 import List, { ListItem } from "./List";
 
 const Deliver = () => {
+  const buttonStyle = {
+    display: 'inline-block',
+    padding: '10px 15px',
+    fontSize: '16px',
+    backgroundColor: '#000', // Fondo negro
+    color: '#fff', // Texto blanco
+    textDecoration: 'none',
+    border: 'none',
+    borderRadius: '20px',
+    cursor: 'pointer',
+  };
   return (
-    <Section title="Deliver" image={{ src: imageMeeting, shape: 1 }}>
+    <Section title="Calculación de aguinaldo" image={{ src: imageMeeting, shape: 1 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
-          About halfway through the Build phase, we push each project out by 6
-          weeks due to a change in{" "}
-          <strong className="font-semibold text-neutral-950">
-            requirements
-          </strong>
-          . This allows us to increase the budget a final time before launch.
+        Entendemos la importancia de simplificar el proceso de cálculo de aguinaldos. 
+        Nuestro servicio especializado está diseñado para ofrecer una solución eficiente y precisa 
+        para tus necesidades de gratificaciones anuales. A continuación, destacamos las características 
+        clave de nuestro servicio:
         </p>
         <p>
-          Despite largely using pre-built components, most of the{" "}
-          <strong className="font-semibold text-neutral-950">progress</strong>{" "}
-          on each project takes place in the final 24 hours. The development
-          time allocated to each client is actually spent making augmented
-          reality demos that go viral on Twitter.
+          <strong className="font-semibold text-neutral-950">1. Actualización Periódica con Cambios Legales:</strong>{" "}
+          Mantenemos nuestro servicio actualizado con las últimas disposiciones legales 
+          relacionadas con los aguinaldos. Esto garantiza que los cálculos estén en línea con las 
+          leyes laborales más recientes, proporcionando seguridad y cumplimiento normativo.
         </p>
         <p>
-          We ensure that the main pages of the site are{" "}
-          <strong className="font-semibold text-neutral-950">
-            fully functional
-          </strong>{" "}
-          at launch — the auxiliary pages will, of course, be lorem ipusm shells
-          which get updated as part of our exorbitant{" "}
-          <strong className="font-semibold text-neutral-950">
-            maintenance
-          </strong>{" "}
-          retainer.
+        <strong className="font-semibold text-neutral-950">2. Información Clara y Accesible:</strong>{" "}
+        Proporcionamos informes detallados y fácilmente comprensibles, desglosando cada 
+        componente del cálculo de aguinaldos. Esto facilita la transparencia y la comunicación 
+        efectiva entre empleadores y empleados en este aspecto crucial de la compensación laboral.
         </p>
+        <p>
+        Simplifica el proceso de cálculo de aguinaldos con <strong className="font-semibold text-neutral-950"> GUITRA</strong>. Nuestra 
+        calculadora en línea es la herramienta ideal para gestionar esta importante prestación 
+        laboral, asegurando una distribución equitativa y conforme a la normativa vigente. 
+        ¡Comienza hoy y garantiza un proceso de aguinaldos sin complicaciones!
+        </p>
+        <a href="https://www.buk.mx/recursos/calculadora/calculadora-de-aguinaldo" target="_blank" rel="noopener noreferrer" style={buttonStyle}>
+          Calcular aguinaldo
+        </a>
       </div>
-      <h3 className="mt-12 font-display text-base font-semibold text-neutral-950">
-        Included in this phase
-      </h3>
-      <List>
-        <ListItem title="Testing">
-          Our projects always have 100% test coverage, which would be impressive
-          if our tests weren’t as porous as a sieve.
-        </ListItem>
-        <ListItem title="Infrastructure">
-          To ensure reliability we only use the best Digital Ocean droplets that
-          $4 a month can buy.
-        </ListItem>
-        <ListItem title="Support">
-          Because we hold the API keys for every critical service your business
-          uses, you can expect a lifetime of support, and invoices, from us.
-        </ListItem>
-      </List>
     </Section>
   );
 };

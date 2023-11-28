@@ -5,13 +5,16 @@ const WorkPage = () => {
   return (
     <>
       <PageIntro
-        eyebrow="Our work"
-        title="Proven solutions for real-world problems."
+        eyebrow="Nuestro trabajo"
+        title="Facilitamos tus Trámites!"
       >
-        <p>
-          We believe in efficiency and maximizing our resources to provide the
-          best value to our clients. The primary way we do that is by re-using
-          the same five projects we’ve been developing for the past decade.
+        <p style={{ textAlign: 'justify' }}>
+        Somos un grupo de estudiantes de la carrera de Contador Público en el Instituto Tecnológico 
+        de Matamoros, comprometidos en proporcionar orientación sobre la documentación y el proceso 
+        para llevar a cabo diversos trámites. En base a nuestra experiencia, hemos identificado la 
+        carencia de información, y nuestro objetivo es cubrir esta necesidad tanto en jóvenes como en 
+        adultos de todas las edades. Estamos aquí para brindar asesoramiento y facilitar el acceso a la 
+        información necesaria para realizar trámites de manera efectiva.
         </p>
       </PageIntro>
     </>

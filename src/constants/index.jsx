@@ -2,15 +2,13 @@ import { SocialMediaProfiles } from "@/components/SocialMedia";
 
 export const navigation = [
   {
-    title: "Work",
+    title: "Trabajamos con",
     links: [
-      { title: "AH MANA3RAF", href: "/work/amazonclone" },
-      { title: "AH MANA3RAF", href: "/work/bazar" },
-      { title: "AH MANA3RAF", href: "/work/blog101" },
+      { title: "It Matamoros", href: "https://www.itmatamoros.edu.mx/" },
       {
         title: (
           <>
-            See all <span aria-hidden="true">&rarr;</span>
+            Mira todo <span aria-hidden="true">&rarr;</span>
           </>
         ),
         href: "/work",
@@ -18,16 +16,16 @@ export const navigation = [
     ],
   },
   {
-    title: "Company",
+    title: "GUITRA",
     links: [
-      { title: "About", href: "/about" },
-      { title: "Process", href: "/process" },
+      { title: "Nosotros", href: "/about" },
+      { title: "Servicios", href: "/process" },
       { title: "Blog", href: "/blog" },
-      { title: "Contact us", href: "/contact" },
+      { title: "Contactanos", href: "/contact" },
     ],
   },
   {
-    title: "Connect",
+    title: "Redes sociales",
     links: SocialMediaProfiles,
   },
 ];
